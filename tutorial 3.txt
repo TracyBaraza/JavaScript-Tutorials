@@ -1,0 +1,12 @@
+Arrays
+          -Arrays are a list of items
+          -uses bracket notation or array object notation
+          eg: var myArray = [1,2,3,4]
+              console.log(myArray)
+              // 1,2,3,4
+          
+ 
+          Addressing: the square bracket '[]' operator is used to address a specific cell in an array.
+                      uses zero based indices
+                      console.log(myArray[1])
+                      // 2

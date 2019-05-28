@@ -1,0 +1,48 @@
+Variables and Types
+A variable is a place holder that holds values.
+eg: var myName = "Tracy"
+    myName-the variable name
+   "Tracy"-the value of the variable
+
+Types:1.Number
+       var myNumber = 4;
+       console.log(myNumber);
+       // "4"
+
+
+      2.String
+       var myString = "Tracy"
+       console.log(myString);
+       // "Tracy"
+
+
+      3.Array
+       var myFruits = ["oranges","apple","avocado","pie"];
+       console.log(myFruits);
+       // "oranges","apple","avocado","pie"
+   
+
+      4.Object
+       var studentData = {"name":"tracy","class":"lisalab","adm no":2323}
+       // [object Object] {
+          adm no: 2323,
+          class: "lisalab",
+          name: "tracy"
+}
+
+      5.Undefined
+       -When a variable is used without first defining a value
+       eg:var newStudent;
+          console.log(newStudent);
+          //undefined
+
+      6.Null
+       -used when a variable should be marked empty
+       eg:var user = null;
+
+
+
+      7.Boolean
+      -a boolean checks whether a statement is either a 'true' or 'false' value
+      eg: console.log(6===5);
+      // false

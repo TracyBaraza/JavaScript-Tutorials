@@ -1,0 +1,5 @@
+Hello World! project
+
+This is the first tutorial that prints out "Hello World!" on the console.
+console.log("Hello World!");
+// "Hello World!"

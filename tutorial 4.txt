@@ -1,0 +1,40 @@
+Manipulating Arrays
+
+           push:this method inserts a variable at the end of an array
+	   pop:removes a variable at the end of a  variable
+         eg: var myNumbers = [1,2,3,4]
+             myNumbers.push(5); 
+             myNumbers.push(6);
+	     console.log(myNumbers);
+	     // [1,2,3,4,5,6]
+
+            console.log(myNumbers.pop());
+            // [1,2,3,4,5]
+	
+	    splice:removes a certain part of an array
+            eg:var myNumbers = [1,2,3,4]
+	       var newNumbers = myNumbers.splice(3,7);
+               console.log
+   
+       
+            Queues using shifting and unshifting:
+ 
+            shift:Removes variables in the same order they were inserted
+            eg:var myList = []
+               myList.push(1);
+	       myList.push(2);
+               myList.push(3);
+               console.log(myList.shift());
+               console.log(myList.shift());
+               // 1
+               // 2
+
+            unshift:Inserts a variable in the beginning of an Array:
+            eg:var myArray = [1,2,3,4];
+               myArray.unshift(0);
+               console.log(myArray);
+               //0,1,2,3,4
+            
+            
+
+
